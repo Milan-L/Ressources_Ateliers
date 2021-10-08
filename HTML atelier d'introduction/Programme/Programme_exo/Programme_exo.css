@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;           /*Permet de décoré le texte ex: le souligné, le barré ou encore mettre un trait par dessus*/
+    color: white;                  /* Change la couleur du texte*/
+}
+
+ul{ 
+    margin: 0;
+    padding-left:5vw ;
+    color: white;
+    line-height: 3.1vw;
+}
+
+
+li {
+    font-size: 1.2vw;               /*Change la taille de la police de texte, l'unité utilisé ici se réfere à la taille du navigateur*/
+    color: white;
+}
+
+li span{
+    font-weight: bold;
+}
+#premierbloc{
+    padding-top: 1vh;
+    height: 9vh;
+    line-height: 4.5vh;
+    background-color: white;
+}
+p#a{
+     margin: 0;
+     font-weight: bold;
+     text-transform: uppercase;
+     text-align: center;
+     color: #002F4A;
+     font-size: 1.8vw;
+}
+#secondbloc{
+    height: 40vw;
+    background-color: #002F4A;
+    font-weight: bold;
+    
+}
+
+#troisiemebloc{
+    height: 7.45vw;
+    background-image: url(2.png);
+}
+
+#quatriemebloc{
+    background-color: #002F4A;
+    height: 5vh;
+    font-size: 1.6vw; /**/
+    line-height: 35px;                   /*Permet de réglé la hauteur à laquelle les lettre seront afficher par rapport à leurs conteneur*/
+    text-align: center;
+}
+
+#divpositioncentre{
+    margin: 0 auto;
+    width: 40%;
+}
